@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Form Elements</title>
+    <style>
+        div{
+            background-color: orange;
+            font-family: Comic Sans MS, sans-serif;
+            padding: 10px;
+            margin: 5px;
+            width: 400px;
+        }
+    </style>
+</head>
+<body>
+
+    <!--
+        simple Login Form
+        Login Form with Table
+        Select Box
+        Text Area
+        DataList
+    -->
+    <div>
+        <form>
+            <label for="username">UserName</label>
+            <input type="Text" id="username">
+            <br>
+            <label for="password">Password</label>
+            <input type="password" id="password">
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <h2>Table Form</h2>
+    <div>
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        <label>UserName</label>
+                    </td>
+                    <td>
+                        <input type="text" name="">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label>Password</label>
+                    </td>
+                    <td>
+                        <input type="password">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="Submit" >
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+    <!-- Select and Option -->
+    <div>
+        <form>
+            <label>Select a Warrior</label>
+            <select>
+                <option>Bheeshma</option>
+                <option>Drona</option>
+                <option>Duryodhana</option>
+                <option>Yudhishthira</option>
+                <option>Bheema</option>
+                <option>Arjuna</option>
+                <option>Nakula</option>
+                <option>Sahdeva</option>
+                <option>Ashwathama</option>
+                <option>Abhimanyu</option>
+            </select>
+        </form>
+    </div>
+
+    <!-- Text Area -->
+    <div>
+        <form>
+            <label>Enter your message</label>
+            <textarea rows="5" cols="30"></textarea>
+        </form>
+    </div>
+
+    <!-- Data List --> 
+    <br><br><br>
+    <div>
+        <form>
+            <label>Select a location</label>
+            <input list="technologies" name="tech">
+            <datalist id="technologies">
+                    <option value="Bikaner">
+                    <option value="Jaipur">
+                    <option value="Kota">
+                    <option value="Chittorgarh">
+                    <option value="Jaisalmer">
+                    <option value="Jodhpur">
+            </datalist>
+            <input type="Submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>

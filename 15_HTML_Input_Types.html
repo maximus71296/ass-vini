@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Input Types</title>
+    <style>
+        div{
+            background-color: orange;
+            padding: 10px;
+            margin: 5px;
+            font-family: "Comic Sans MS", sans-serif;
+            width: 400px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!--
+        Simple Input Types
+        1) Text Box
+        2) Password Box
+        3) Radio Button
+        4) Check Box
+        5) Normal Button
+    -->
+    <div>
+        <form>
+            <label>User Name</label>
+            <input type="text">
+        </form>
+    </div>
+
+    <div>
+        <form>
+            <label>Password</label>
+            <input type="password">
+        </form>
+    </div>
+
+    <div>
+        <form>
+            <label>User Name</label>
+            <input type="text">
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <div>
+        <form>
+            <label>User Name</label>
+            <input type="text">
+            <input type="reset" value="Reset">
+        </form>
+    </div>
+
+    <div>
+        <form>
+            <label>is Maximus a retard?</label>
+            <input type="radio" value="yes" name="retard">Yes
+            <input type="radio" value="no" name="retard">No
+        </form>
+    </div>
+
+    <div>
+        <form>
+            <label>Select the favourite warrior:</label>
+            <input type="checkbox" value="Arjuna">Arjuna
+            <input type="checkbox" value="Karna">Karna
+        </form>
+    </div>
+
+    <!-- HTML5 Input Types
+        color,
+        date,
+        datetime-local,
+        email,
+        month,
+        number,
+        range,
+        search,
+        time,
+        url,
+        Week
+    -->
+    <h2>HTMP 5 Input Types</h2>
+    <!-- Color Selection --> 
+    <div>
+        <form>
+            <label>Select a color</label>
+            <input type="color">
+        </form>
+    </div>
+
+    <!-- Date Selection --> 
+    <div>
+        <form>
+            <label>Select a date</label>
+            <input type="date">
+        </form>
+    </div>
+
+    <!-- Date & Time -->
+    <div>
+        <form>
+            <label>Select Date & Time</label>
+            <input type="datetime-local">
+        </form>
+    </div>
+
+    <!-- Email -->
+    <div>
+        <form>
+            <label>Enter your email</label>
+            <input type="email">
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <!-- Number Selection -->
+    <div>
+        <form>
+            <label>Select your age</label>
+            <input type="number" min="1" max="100">
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <!-- Range -->
+    <div>
+        <form>
+            <label>Select a Range</label>
+            0<input type="range" min="0" max="100">100
+        </form>
+    </div>
+
+    <!-- Search -->
+    <div>
+        <form>
+            <label>Search Here</label>
+            <input type="search">
+        </form>
+    </div>
+
+    <!-- Time --> 
+    <div>
+        <form>
+            <label>Select Time</label>
+            <input type="time">
+        </form>
+    </div>
+
+    <!-- URL -->
+    <div>
+        <form>
+            <label>Enter your Website</label>
+            <input type="url">
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <!-- Week Selection -->
+    <div>
+        <form>
+            <label>Select a week</label>
+            <input type="week">
+        </form>
+    </div>
+
+</body>
+</html>
